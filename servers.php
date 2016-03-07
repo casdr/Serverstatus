@@ -1,9 +1,9 @@
 <?php
 
-$servers = array(
+$servers = [
 
-    array('LET', 'lowendtalk.com', 80),
+    ['LET', 'lowendtalk.com', 80],
 
-    array('Downie', 'ashityserver.nl', 80),
+    ['Downie', 'ashityserver.nl', 80],
 
-);
+];
