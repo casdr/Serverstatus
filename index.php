@@ -1,6 +1,6 @@
 <?php
 
-include('servers.php');
+include 'servers.php';
 
 ?>
 
@@ -50,13 +50,16 @@ include('servers.php');
 
     	<?php
 
-    	foreach($servers as $s=>$k) { ?>
+        foreach ($servers as $s => $k) {
+            ?>
 
-    		<tr><td><h2><center><?php echo $k[0]; ?></center></h2></td><td><h2><center><span class="stat" id="<?php echo $s; ?>"><span class="label label-default">Loading</span></span></center></h2></td></tr>
+    		<tr><td><h2><center><?php echo $k[0];
+            ?></center></h2></td><td><h2><center><span class="stat" id="<?php echo $s;
+            ?>"><span class="label label-default">Loading</span></span></center></h2></td></tr>
 
     	<?php
 
-    	} ?>
+        } ?>
 
     	</table>
 
